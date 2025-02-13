@@ -1,0 +1,16 @@
+Execute and see
+HashSet
+LinkedHashSet
+TreeSet
+
+HashSet - Integer
+LinkedHashSet - String
+TreeSet - Float
+
+Every collection should have 8 elements minimum initially
+After removal, every collection will have 7 elements minimum initially
+HashSet - After removing the element, print the elements that are divisible by 7
+
+LinkedHashSet - After removing the element, print the elements that are with size more than 5
+TreeSet - After removing the element, print the elements that are greater than 20
+And after applying conditions, every collection should have minimum 4 elements
