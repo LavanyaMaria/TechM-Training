@@ -12,4 +12,6 @@ if(Math.abs(num2-num1)==30){
         }
         num1++
     }
+}else{
+    console.log("The difference is not 30");
 }
