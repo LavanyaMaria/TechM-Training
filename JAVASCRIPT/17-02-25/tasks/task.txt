@@ -1,0 +1,15 @@
+Write functions in Javascript for the following:
+1. Without paasing parameters, display the multiplication table with two variables , one variable for the number , and other for the limit.
+
+2. Pass a parameter, and display the factors of that parameter in the function
+
+3. Pass a number, and find if the sum of their digits is an even or odd number
+
+4. Create a arrow function without parameters, to choose the operation among add, subtract, multiply and divide, using switch statement.
+On choosing the operation, it has to invoke the corresponding method (as expression) with parameters and display the results accordingly, like, sum for add, difference for subtract, product for multiply, quotient and reminder for divide
+
+5. Create a object called student with properties id, name, department, college and email.Write a function to access the properties and display them. Invoke the function to display the details
+Write another function to access the properties id, name and email and display them. Invoke the function to display the details
+Add a property called address, as another object, with properties as doorNo, street, area and pincode
+Add a function to display the details of the student with address.
+Delete the property email and the function created to display id, name and email.
