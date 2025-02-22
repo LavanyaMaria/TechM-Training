@@ -2,7 +2,7 @@ package org.example.assignment.corejava.Task1;
 
 import java.util.Arrays;
 
-public class copyRange {
+public class task4 {
     public static void main(String[] args){
         int[] ar={1,2,3,4,5,6,7,6,5,4,3,2,1};
 
