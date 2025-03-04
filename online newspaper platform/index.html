@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - News|Mags</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="images/homelogo.png" width="40" alt="Logo" />
+              <span class="ms-2">E-Magazine | E-News</span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="categoriesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categories
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="categoriesDropdown"
+                  >
+                    <li>
+                      <a href="categories.html?category=politics">Politics</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=sports">Sports</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=entertainment"
+                        >Entertainment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=technology"
+                        >Technology</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=health">Health</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=business">Business</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <!-- Search Bar -->
+              <form onsubmit="searchArticles(event)" class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  id="search-bar"
+                  placeholder="Search articles..."
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>Breaking News!</h1>
+    </section>
+
+    <section class="latest-news-carousel">
+      <div class="container mt-4">
+        <div
+          id="latestNewsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#latestNewsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#latestNewsCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#latestNewsCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#latestNewsCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+
+          <!-- Carousel Items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/latestnews1.webp"
+                class="d-block w-100 carousel-img"
+                alt="Trump Vs Zelensky"
+              />
+              <div class="carousel-caption">
+                <h3>
+                  <a href="article.html?id=1"
+                    >Trump Showdown, Zelensky Warned!</a
+                  >
+                </h3>
+                <p>
+                  Hours Before Trump Showdown, Zelensky Was Warned Not To "Take
+                  The Bait"
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/latestnews2.webp"
+                class="d-block w-100 carousel-img"
+                alt="Israel Aid to Gaza"
+              />
+              <div class="carousel-caption">
+                <h3><a href="article.html?id=2">Israel Aid to Gaza!</a></h3>
+                <p>
+                  Israel stops humanitarian aid into Gaza after Hamas rejects
+                  ceasefire’s first phase.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/latestnews3.webp"
+                class="d-block w-100 carousel-img"
+                alt="US Spaceship on Moon"
+              />
+              <div class="carousel-caption">
+                <h3><a href="article.html?id=3">US Spaceship on Moon</a></h3>
+                <p>
+                  US Spaceship Lands On Moon, Second Private Lander To Achieve
+                  Milestone.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/latestnews4.webp"
+                class="d-block w-100 carousel-img"
+                alt="Japan Wildfire"
+              />
+              <div class="carousel-caption">
+                <h3><a href="article.html?id=4">Japan Wildfire</a></h3>
+                <p>
+                  1 Dead, Thousands Evacuated After Japan's Biggest Wildfire In
+                  Over 30 Years.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#latestNewsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#latestNewsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotlight and Health-Check Sections -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Spotlight Section (8 columns on large screens) -->
+        <div class="col-lg-8">
+          <section class="spotlight">
+            <h2 class="mb-4">Spotlight</h2>
+            <div class="row">
+              <!-- Spotlight Article 1 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="images/spot1.webp"
+                    class="card-img-top"
+                    alt="Charli XCX at Brits"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        href="article.html?id=5"
+                        style="text-decoration: none; color: black"
+                        >Charli XCX at Brits</a
+                      >
+                    </h5>
+                    <p class="card-text">
+                      Brits go Brat as Charli XCX wins five awards
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Article 2 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="images/sport2.webp"
+                    class="card-img-top"
+                    alt="Pam miss Oscars!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        href="article.html?id=6"
+                        style="text-decoration: none; color: black"
+                        >Pam miss Oscars!</a
+                      >
+                    </h5>
+                    <p class="card-text">
+                      Pamela Anderson on missing out on Oscars, ditching makeup
+                      and 'innocence' of Baywatch
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Article 3 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="images/spot3.webp"
+                    class="card-img-top"
+                    alt="Madame gone worst!"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        href="article.html?id=7"
+                        style="text-decoration: none; color: black"
+                        >Madame gone worst!</a
+                      >
+                    </h5>
+                    <p class="card-text">
+                      ‘Madame Web’ leads Razzies wins for the best of the worst
+                      in movies
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Article 4 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <img
+                    src="images/spot4.webp"
+                    class="card-img-top"
+                    alt="RIP Dawn"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        href="article.html?id=8"
+                        style="text-decoration: none; color: black"
+                        >RIP Dawn</a
+                      >
+                    </h5>
+                    <p class="card-text">
+                      ‘Buffy’ star Sarah Michelle Gellar honors late on-screen
+                      sister Michelle Trachtenberg
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Health-Check Section (4 columns on large screens) -->
+        <div class="col-lg-4">
+          <section class="health-check">
+            <h2 class="mb-4">Health-Check</h2>
+            <div class="card shadow-sm">
+              <img
+                src="images/health.jpeg"
+                class="card-img-top"
+                alt="Health Tips"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tips for Maintaining a Healthy Lifestyle
+                </h5>
+                <p class="card-text">
+                  Taking care of your health is arguably the most important
+                  thing you can do for yourself (and your loved ones).<br />Whether
+                  you make a point to eat more fruits and vegetables or get
+                  outside for a daily walk, there isn’t just one way to maintain
+                  a healthy lifestyle. To center health and wellness in your
+                  life, try including some or all of the tips we include in this
+                  article.<br />
+                  Adopting just a few of these recommendations can go a long way
+                  to improving your physical and mental well-being.
+                </p>
+                <a href="article.html?id=9" class="btn btn-primary"
+                  >Know More</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="article.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories - News|Mags</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script>
+      function showCategory(categoryId) {
+        // Hide all categories
+        let sections = document.querySelectorAll(".category-section");
+        sections.forEach((section) => (section.style.display = "none"));
+
+        // Show selected category
+        document.getElementById(categoryId).style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="images/homelogo.png" width="40" alt="Logo" />
+              <span class="ms-2">E-Magazine | E-News</span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="categoriesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categories
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="categoriesDropdown"
+                  >
+                    <li>
+                      <a href="categories.html?category=politics">Politics</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=sports">Sports</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=entertainment"
+                        >Entertainment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=technology"
+                        >Technology</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=health">Health</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=business">Business</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <!-- Search Bar -->
+              <form onsubmit="searchArticles(event)" class="d-flex">
+                <input class="form-control me-2" type="search" id="search-bar" placeholder="Search articles...">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>            
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container mt-4">
+      <h2 class="mb-4">News Categories</h2>
+
+      <!-- Dropdown Menu for Categories -->
+      <div class="mb-3">
+        <label for="category-select" class="form-label"
+          >Select a Category</label
+        >
+        <select
+          class="form-select"
+          id="category-select"
+          onchange="showCategory(this.value)"
+        >
+          <option value="">-- Choose a category --</option>
+          <option value="politics">Politics</option>
+          <option value="sports">Sports</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="technology">Technology</option>
+          <option value="health">Health</option>
+          <option value="business">Business</option>
+        </select>
+      </div>
+      <h1 id="category-title"></h1>
+      <img id="category-image" src="" alt="Category Image" />
+      <p id="category-content"></p>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="categories.js"></script>
+    <script src="article.js"></script>
+  </body>
+</html>

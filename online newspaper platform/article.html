@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article - News|Mags</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="images/homelogo.png" width="40" alt="Logo" />
+              <span class="ms-2">E-Magazine | E-News</span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="categoriesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categories
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="categoriesDropdown"
+                  >
+                    <li>
+                      <a href="categories.html?category=politics">Politics</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=sports">Sports</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=entertainment"
+                        >Entertainment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=technology"
+                        >Technology</a
+                      >
+                    </li>
+                    <li>
+                      <a href="categories.html?category=health">Health</a>
+                    </li>
+                    <li>
+                      <a href="categories.html?category=business">Business</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <!-- Search Bar -->
+              <form class="d-flex ms-3" onsubmit="searchArticles(event)">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  id="search-bar"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="article-content">
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Article Content (Left Column) -->
+          <div class="col-lg-8">
+            <h1 id="article-title" class="text"></h1>
+            <h5 id="article-content" class="text"></h5>
+            <img
+              id="article-image"
+              src=""
+              class="img-fluid mb-4"
+              alt="Article Image"
+            />
+            <p id="article-body"></p>
+
+            <!-- Back to Home Button -->
+            <a href="index.html" class="btn btn-info">Back to Home</a>
+          </div>
+
+          <!-- Comment Section (Right Column) -->
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Feedback on the article</h5>
+
+                <!-- Comment Form -->
+                <form id="comment-form">
+                  <div class="mb-3">
+                    <label for="comment-name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="comment-name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="comment-text" class="form-label">Comment</label>
+                    <textarea
+                      class="form-control"
+                      id="comment-text"
+                      rows="5"
+                      placeholder="Let us know what you think"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <!-- Display Comments -->
+                <div id="comments-list" class="mt-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="article.js"></script>
+  </body>
+</html>
