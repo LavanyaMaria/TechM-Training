@@ -1,0 +1,49 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(90deg, rgb(168, 167, 228), rgb(151, 255, 182));
+    color: #070700;
+    padding: 50px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+  }
+  
+  .library-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    color: #070700;
+  }
+  
+  .tagline {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    opacity: 0.9;
+  }  
+
+/* Quick Actions */
+
+.wishlist-btn, .borrow-btn {
+  background-color: lemonchiffon;
+  color: rgb(0, 75, 26);
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.wishlist-btn:hover, .borrow-btn:hover {
+  background-color: #e0f145;
+}

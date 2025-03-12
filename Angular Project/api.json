@@ -1,0 +1,249 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Psychological Thriller",
+      "publishedYear": 2019,
+      "coverImage": "silent_patient.jpg",
+      "description": "The Silent Patient is a gripping psychological thriller about Alicia Berenson, a famous painter who stops speaking after being accused of murdering her husband. Theo Faber, a criminal psychotherapist, becomes obsessed with uncovering the truth behind her silence. As he delves deeper into her case, he discovers shocking secrets that challenge his own sanity. The novel is a masterful exploration of trauma, obsession, and the human psyche. With its unexpected twists, it keeps readers on the edge of their seats until the very end."
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "publishedYear": 2018,
+      "coverImage": "atomic_habits.jpg",
+      "description": "Atomic Habits by James Clear is a practical guide to building good habits and breaking bad ones. The book emphasizes the power of small, incremental changes and how they compound over time to produce remarkable results. Clear provides actionable strategies for creating systems that lead to long-term success. He also explores the science behind habit formation and how to align your habits with your goals. This book is a must-read for anyone looking to improve their productivity, health, and overall well-being."
+    },
+    {
+      "id": "3",
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": "Mystery",
+      "publishedYear": 2018,
+      "coverImage": "crawdads_sing.jpg",
+      "description": "Where the Crawdads Sing by Delia Owens is a hauntingly beautiful novel set in the marshes of North Carolina. It tells the story of Kya Clark, the 'Marsh Girl,' who grows up isolated from society after being abandoned by her family. The narrative alternates between Kya's coming-of-age story and a murder investigation that implicates her. The book explores themes of love, loss, and the resilience of the human spirit. With its vivid descriptions and emotional depth, it captivates readers from start to finish."
+    },
+    {
+      "id": "4",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "genre": "Self-Help",
+      "publishedYear": 2016,
+      "coverImage": "subtle_art.jpg",
+      "description": "The Subtle Art of Not Giving a F*ck by Mark Manson is a refreshing take on self-help that challenges conventional wisdom. Manson argues that life's struggles give it meaning and that we should focus on what truly matters. The book is filled with blunt humor, practical advice, and counterintuitive ideas about happiness and success. It encourages readers to embrace their flaws and accept life's imperfections. With its no-nonsense approach, it has become a modern classic in the self-help genre."
+    },
+    {
+      "id": "5",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "publishedYear": 1988,
+      "coverImage": "alchemist.jpg",
+      "description": "The Alchemist by Paulo Coelho is a timeless fable about following your dreams. It follows Santiago, a young shepherd, as he embarks on a journey to find a hidden treasure in the Egyptian pyramids. Along the way, he learns valuable lessons about listening to his heart and recognizing the signs that guide him. The novel is a celebration of the human spirit and the pursuit of one's Personal Legend. Its simple yet profound wisdom has inspired millions of readers worldwide."
+    },
+    {
+      "id": "6",
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "genre": "Fiction",
+      "publishedYear": 2011,
+      "coverImage": "night_circus.jpg",
+      "description": "The Night Circus by Erin Morgenstern is a mesmerizing tale of magic, love, and rivalry. The story revolves around a mysterious circus that appears without warning and is open only at night. Two young magicians, Celia and Marco, are bound in a fierce competition, unaware that their fates are intertwined. The novel is filled with enchanting imagery, intricate plot twists, and a dreamlike atmosphere. It is a spellbinding read that transports readers to a world of wonder and imagination."
+    },
+    {
+      "id": "7",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": "Psychological Thriller",
+      "publishedYear": 2012,
+      "coverImage": "gone_girl.jpg",
+      "description": "Gone Girl by Gillian Flynn is a gripping psychological thriller that delves into the complexities of marriage and deception. The story revolves around Nick and Amy Dunne, whose seemingly perfect marriage unravels when Amy goes missing on their fifth wedding anniversary. As the investigation unfolds, dark secrets and twisted truths come to light. The novel is a masterclass in suspense, with unreliable narrators and shocking twists that keep readers guessing until the very end. It is a chilling exploration of love, betrayal, and the masks people wear."
+    },
+    {
+      "id": "8",
+      "title": "The Lost City of Z",
+      "author": "David Grann",
+      "genre": "Adventure",
+      "publishedYear": 2009,
+      "coverImage": "lost_city_of_z.jpg",
+      "description": "The Lost City of Z by David Grann is a thrilling adventure that recounts the true story of British explorer Percy Fawcett, who vanished in the Amazon rainforest while searching for an ancient civilization. Grann retraces Fawcett's footsteps, blending history, mystery, and exploration into a gripping narrative. The book delves into the dangers of the Amazon, the allure of the unknown, and the obsession that drives explorers to risk everything. It is a captivating tale of discovery, danger, and the enduring human spirit."
+    },
+    {
+      "id": "9",
+      "title": "The Spanish Love Deception",
+      "author": "Elena Armas",
+      "genre": "Romance",
+      "publishedYear": 2021,
+      "coverImage": "spanish_love.jpg",
+      "description": "The Spanish Love Deception by Elena Armas is a delightful romantic comedy about Catalina Martín, who convinces her annoying coworker, Aaron Blackford, to pose as her boyfriend at a wedding in Spain. As they navigate the charade, sparks fly, and Catalina begins to see Aaron in a new light. The novel is filled with witty banter, heartfelt moments, and sizzling chemistry. It is a perfect read for fans of fake-dating tropes and feel-good romances. The book has been praised for its humor and charm."
+    },
+    {
+      "id": "10",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": "Adventure",
+      "publishedYear": 2008,
+      "coverImage": "hunger_games.jpg",
+      "description": "The Hunger Games by Suzanne Collins is a gripping dystopian novel set in the nation of Panem, where teenagers are forced to compete in a deadly televised game. The story follows Katniss Everdeen, who volunteers to take her sister's place in the Games. As she fights for survival, she becomes a symbol of rebellion against the oppressive Capitol. The novel explores themes of sacrifice, courage, and resistance. It is a thrilling and thought-provoking read that has captivated millions of readers."
+    },
+    {
+      "id": "11",
+      "title": "Percy Jackson and the Sea of Monsters",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "publishedYear": 2006,
+      "coverImage": "sea_of_monsters.jpg",
+      "description": "Percy Jackson and the Sea of Monsters is the second book in Rick Riordan's Percy Jackson series. It follows Percy and his friends as they embark on a quest to retrieve the Golden Fleece and save Camp Half-Blood from destruction. The novel is filled with action, humor, and Greek mythology. Percy's journey is a thrilling adventure that explores themes of friendship, bravery, and self-discovery. It is a must-read for fans of fantasy and mythology."
+    },
+    {
+      "id": "12",
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "genre": "Romance",
+      "publishedYear": 2021,
+      "coverImage": "love_hypothesis.jpg",
+      "description": "The Love Hypothesis by Ali Hazelwood is a charming fake-dating romance set in the world of academia. The story follows Olive Smith, a PhD student, who convinces a young professor, Adam Carlsen, to pretend to be her boyfriend. As their fake relationship unfolds, Olive discovers that Adam is not the cold, unapproachable man she thought he was. The novel is filled with humor, heart, and sizzling chemistry. It is a delightful read for fans of contemporary romance."
+    }
+  ],
+  "borrowed": [
+    {
+      "id": "10",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "returnDate": "2025-04-01",
+      "coverImage": "hunger_games.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "description": "The Night Circus by Erin Morgenstern is a mesmerizing tale of magic, love, and rivalry. The story revolves around a mysterious circus that appears without warning and is open only at night. Two young magicians, Celia and Marco, are bound in a fierce competition, unaware that their fates are intertwined. The novel is filled with enchanting imagery, intricate plot twists, and a dreamlike atmosphere. It is a spellbinding read that transports readers to a world of wonder and imagination.",
+      "genre": "Fiction",
+      "publishedYear": 2011,
+      "coverImage": "night_circus.jpg",
+      "returnDate": "2025-04-08"
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "description": "Atomic Habits by James Clear is a practical guide to building good habits and breaking bad ones. The book emphasizes the power of small, incremental changes and how they compound over time to produce remarkable results. Clear provides actionable strategies for creating systems that lead to long-term success. He also explores the science behind habit formation and how to align your habits with your goals. This book is a must-read for anyone looking to improve their productivity, health, and overall well-being.",
+      "genre": "Self-Help",
+      "publishedYear": 2018,
+      "coverImage": "atomic_habits.jpg",
+      "returnDate": "2025-04-08"
+    },
+    {
+      "id": "8",
+      "title": "The Lost City of Z",
+      "author": "David Grann",
+      "description": "The Lost City of Z by David Grann is a thrilling adventure that recounts the true story of British explorer Percy Fawcett, who vanished in the Amazon rainforest while searching for an ancient civilization. Grann retraces Fawcett's footsteps, blending history, mystery, and exploration into a gripping narrative. The book delves into the dangers of the Amazon, the allure of the unknown, and the obsession that drives explorers to risk everything. It is a captivating tale of discovery, danger, and the enduring human spirit.",
+      "genre": "Adventure",
+      "publishedYear": 2009,
+      "coverImage": "lost_city_of_z.jpg",
+      "returnDate": "2025-04-09"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "6",
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "description": "The Night Circus by Erin Morgenstern is a mesmerizing tale of magic, love, and rivalry. The story revolves around a mysterious circus that appears without warning and is open only at night. Two young magicians, Celia and Marco, are bound in a fierce competition, unaware that their fates are intertwined. The novel is filled with enchanting imagery, intricate plot twists, and a dreamlike atmosphere. It is a spellbinding read that transports readers to a world of wonder and imagination.",
+      "genre": "Fiction",
+      "publishedYear": 2011,
+      "coverImage": "night_circus.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Lost City of Z",
+      "author": "David Grann",
+      "description": "The Lost City of Z by David Grann is a thrilling adventure that recounts the true story of British explorer Percy Fawcett, who vanished in the Amazon rainforest while searching for an ancient civilization. Grann retraces Fawcett's footsteps, blending history, mystery, and exploration into a gripping narrative. The book delves into the dangers of the Amazon, the allure of the unknown, and the obsession that drives explorers to risk everything. It is a captivating tale of discovery, danger, and the enduring human spirit.",
+      "genre": "Adventure",
+      "publishedYear": 2009,
+      "coverImage": "lost_city_of_z.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Spanish Love Deception",
+      "author": "Elena Armas",
+      "description": "The Spanish Love Deception by Elena Armas is a delightful romantic comedy about Catalina Martín, who convinces her annoying coworker, Aaron Blackford, to pose as her boyfriend at a wedding in Spain. As they navigate the charade, sparks fly, and Catalina begins to see Aaron in a new light. The novel is filled with witty banter, heartfelt moments, and sizzling chemistry. It is a perfect read for fans of fake-dating tropes and feel-good romances. The book has been praised for its humor and charm.",
+      "genre": "Romance",
+      "publishedYear": 2021,
+      "coverImage": "spanish_love.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "description": "The Subtle Art of Not Giving a F*ck by Mark Manson is a refreshing take on self-help that challenges conventional wisdom. Manson argues that life's struggles give it meaning and that we should focus on what truly matters. The book is filled with blunt humor, practical advice, and counterintuitive ideas about happiness and success. It encourages readers to embrace their flaws and accept life's imperfections. With its no-nonsense approach, it has become a modern classic in the self-help genre.",
+      "genre": "Self-Help",
+      "publishedYear": 2016,
+      "coverImage": "subtle_art.jpg"
+    },
+    {
+      "id": "1",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "description": "The Silent Patient is a gripping psychological thriller about Alicia Berenson, a famous painter who stops speaking after being accused of murdering her husband. Theo Faber, a criminal psychotherapist, becomes obsessed with uncovering the truth behind her silence. As he delves deeper into her case, he discovers shocking secrets that challenge his own sanity. The novel is a masterful exploration of trauma, obsession, and the human psyche. With its unexpected twists, it keeps readers on the edge of their seats until the very end.",
+      "genre": "Psychological Thriller",
+      "publishedYear": 2019,
+      "coverImage": "silent_patient.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "publishedYear": 2018,
+      "coverImage": "atomic_habits.jpg",
+      "description": "Atomic Habits by James Clear is a practical guide to building good habits and breaking bad ones. The book emphasizes the power of small, incremental changes and how they compound over time to produce remarkable results. Clear provides actionable strategies for creating systems that lead to long-term success. He also explores the science behind habit formation and how to align your habits with your goals. This book is a must-read for anyone looking to improve their productivity, health, and overall well-being."
+    }
+  ],
+  "request": [
+    {
+      "id": "4446",
+      "name": "Lavanya Packianathan Maria ",
+      "email": "lavanyamaria103@gmail.com",
+      "bookName": "The ABC Murders",
+      "author": "Agatha Christie",
+      "message": "can i get it by the end of the week"
+    },
+    {
+      "id": "f045",
+      "name": "Lavanya Packianathan Maria ",
+      "email": "lavanyamaria103@gmail.com",
+      "bookName": "Howl",
+      "author": "aaaaaaaaaaaa",
+      "message": ""
+    },
+    {
+      "id": "6b03",
+      "name": "Lavanya Packianathan Maria ",
+      "email": "lavanyamaria103@gmail.com",
+      "bookName": "Howl",
+      "author": "aaaaaaaaaaaa",
+      "message": ""
+    },
+    {
+      "id": "3bc8",
+      "name": "Lavanya Packianathan Maria ",
+      "email": "lavanyamaria103@gmail.com",
+      "bookName": "Howl",
+      "author": "aaaaaaaaaaaa",
+      "message": ""
+    },
+    {
+      "id": "90b7",
+      "name": "Lavanya Packianathan Maria ",
+      "email": "lavanyamaria103@gmail.com",
+      "bookName": "Howl",
+      "author": "aaaaaaaaaaaa",
+      "message": ""
+    }
+  ]
+}

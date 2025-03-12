@@ -1,0 +1,21 @@
+<div class="books-container">
+  <h5 class="text-center">My Books</h5>
+  <div *ngIf="books.length > 0; else noBooks">
+    <app-books-card 
+      *ngFor="let book of books" 
+      [book]="book"
+      (remove)="removeBook($event)">
+    </app-books-card>
+  </div>
+  
+  
+    <ng-template #noBooks>
+      <p class="no-books">No books borrowed yet. Borrow one now!</p>
+    </ng-template>
+
+    <button class="add-btn" (click)="router.navigate(['/books'])">
+        Borrow a Book from Library
+     </button>
+
+  </div>
+  

@@ -1,0 +1,102 @@
+/* Full-screen gradient background */
+html, body {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(168, 167, 228), rgb(151, 255, 182));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+/* Center the login container */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
+  background: transparent;
+}
+
+/* Stylish heading */
+h2 {
+  color: #ff4b79;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form fields with better spacing */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  transition: 0.3s ease;
+}
+
+/* Input focus effect */
+.form-control:focus {
+  border-color: #ff4b79;
+  box-shadow: 0 0 8px rgba(255, 75, 121, 0.3);
+}
+
+/* Stylish login button */
+.btn-primary {
+  background: linear-gradient(90deg, rgb(168, 167, 228), rgb(151, 255, 182));
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  border-radius: 8px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background: linear-gradient(90deg, rgb(168, 167, 228), rgb(151, 255, 182));;
+  transform: scale(1.05);
+}
+
+/* Logout button */
+.btn-danger {
+  background: lemonchiffon;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+
+/* Logout button hover */
+.btn-danger:hover {
+  background:  #e0f145;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+    padding: 20px;
+  }
+}

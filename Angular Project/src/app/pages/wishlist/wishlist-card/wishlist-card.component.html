@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+      <div *ngIf="wishlist.length > 0" class="col-12">
+        <div class="row">
+          <div *ngFor="let book of wishlist | bookTitleFilter:searchText" class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100 shadow-sm">
+              <img [src]="'http://localhost:8090/' + book.coverImage" 
+                   class="img-fluid rounded-start book-cover" 
+                   [alt]="book.title">
+              <div class="card-body text-center">
+                <h5 class="card-title">{{ book.title }}</h5>
+                <p class="card-text text-muted">by {{ book.author }}</p>
+                <button class="btn btn-danger btn-sm" (click)="removeBook(book.id)">Remove</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="wishlist.length === 0" class="col-12 text-center">
+        <p class="text-muted">No books in your wishlist.</p>
+      </div>
+    </div>
+  </div>
+  

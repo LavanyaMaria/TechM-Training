@@ -1,0 +1,45 @@
+<div class="container">
+    <h3> Request a Book</h3>
+
+    <!-- Success Message -->
+    <div *ngIf="successMessage" class="alert alert-success">
+        {{ successMessage }}
+    </div>
+    
+    <!-- Error Messages -->
+    <div *ngIf="errors.length > 0" class="alert alert-danger">
+        <ul>
+            <li *ngFor="let error of errors">{{ error }}</li>
+        </ul>
+    </div>
+
+    <form *ngIf="!formSubmitted" (submit)="submitForm()">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" [(ngModel)]="name" name="name" required />
+      </div>
+  
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" [(ngModel)]="email" name="email" required />
+      </div>
+  
+      <div class="mb-3">
+        <label for="book-name" class="form-label">Book Title</label>
+        <input type="text" id="book-name" class="form-control" [(ngModel)]="bookName" name="book-name" required />
+      </div>
+
+      <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" id="author" class="form-control" [(ngModel)]="author" name="author" required />
+      </div>
+  
+      <div class="mb-3">
+        <label for="message" class="form-label">Additional Comments / Message</label>
+        <textarea id="message" class="form-control" rows="4" [(ngModel)]="message" name="message" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      
+    </form>
+  </div>

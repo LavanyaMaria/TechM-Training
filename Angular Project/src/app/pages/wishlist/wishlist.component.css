@@ -1,0 +1,62 @@
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Header Styling */
+h2, h3 {
+    font-weight: 600;
+    color: lightcoral;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+.btn-primary {
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background 0.3s ease-in-out;
+    background: rgb(209, 87, 87);
+}
+
+.btn-primary:hover {
+    background: rgb(217, 72, 135);
+}
+
+/* Input Group */
+.input-group-text {
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Wishlist Empty State */
+.text-muted {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .btn-primary {
+        width: 100%;
+    }
+}

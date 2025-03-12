@@ -1,0 +1,12 @@
+<div class="book-card">
+    <img [src]="'http://localhost:8090/' + book.coverImage" 
+         class="img-fluid rounded-start book-cover" 
+         [alt]="book.title">
+    <div class="book-info">
+      <h3>{{ book.title }}</h3>
+      <p>by {{ book.author }}</p>
+      <p *ngIf="book.returnDate">Return Date: {{ book.returnDate }}</p>
+      <!-- ✅ Remove Book Button (Only for Borrowed Books) -->
+      <button *ngIf="book.returnDate" class="btn btn-danger" (click)="removeBook()">❌ Remove Book</button>
+    </div>
+</div>

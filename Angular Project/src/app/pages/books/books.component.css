@@ -1,0 +1,56 @@
+.books-container {
+  max-width: 800px; /* Adjust width for a balanced layout */
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.books-container h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.books-container .no-books {
+  color: #777;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+/* Grid layout for books, ensuring 2 books per row */
+.books-container div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Style for the Borrow button */
+.add-btn {
+  display: block;
+  width: max-content;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background: linear-gradient(90deg, rgb(168, 167, 228), rgb(151, 255, 182));
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .books-container div {
+    grid-template-columns: 1fr; /* 1 book per row on smaller screens */
+  }
+}
